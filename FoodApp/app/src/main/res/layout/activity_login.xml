@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="patrickstudio.foodapp.controller.LoginActivity">
+    <ImageView
+        android:src="@drawable/login_background"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background_v1"
+        android:layout_alignParentBottom="true">
+    </View>
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/food_logo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="300dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:text="Bằng việc tiếp tục, bạn đồng ý với"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center"
+        android:textSize="13sp"
+        android:textColor="@color/colorTextPrimary"
+        android:text="Điều khoản sử dụng và Chính sách bảo mật của"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="210dp"
+        android:text="chúng tôi"
+        android:layout_gravity="center"
+        android:textSize="13sp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.facebook.login.widget.LoginButton
+        android:paddingTop="15sp"
+        android:paddingBottom="15sp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:textSize="15sp"
+        android:id="@+id/login_fb_button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/login_gg_button"
+        android:textSize="15sp"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="430dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

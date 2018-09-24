@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:id="@+id/home_card_view"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/food_type_logo_img"
+        android:src="@drawable/vetterian_food_img"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:background="@drawable/gradient_background_v3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        android:layout_gravity="bottom"
+        android:text="Vegetarian Food"
+        android:textColor="@color/colorTextPrimary"
+        android:id="@+id/food_type_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</android.support.v7.widget.CardView>
